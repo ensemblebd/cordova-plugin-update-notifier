@@ -19,6 +19,7 @@
     "cordova-ios"
   ],
   "cordova": {
+    "id": "cordova-plugin-update-notifier",
     "platforms": [
       "ios",
       "android"
