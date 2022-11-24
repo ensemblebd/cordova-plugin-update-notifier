@@ -1,5 +1,5 @@
 {
-  "name": "cordova-plugin-update-notifier",
+  "name": "cordova-plugin-update-notifier-eg",
   "version": "2.0.1",
   "author": "Ayogo Health Inc. <info@ayogo.com>",
   "contributors": [
@@ -10,7 +10,10 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AyogoHealth/cordova-plugin-update-notifier.git"
+    "url": "git+https://github.com/ensemblebd/cordova-plugin-update-notifier-eg.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   },
   "keywords": [
     "cordova",
@@ -19,21 +22,19 @@
     "cordova-ios"
   ],
   "cordova": {
-    "id": "cordova-plugin-update-notifier",
+    "id": "cordova-plugin-update-notifier-eg",
     "platforms": [
       "ios",
       "android"
     ]
   },
-  "engines": [
-    {
-      "name": "cordova-android",
-      "version": ">= 9.0.0"
-    },
-    {
-      "name": "cordova-ios",
-      "version": ">= 5.0.0"
+  "engines": {
+    "cordovaDependencies": {
+      "1.0.0": {
+        "cordova-android": ">= 9.0.0",
+        "cordova-ios": ">= 5.0.0"
+      }
     }
-  ],
+  },
   "dependencies": {}
 }
